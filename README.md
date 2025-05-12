@@ -35,7 +35,7 @@ npm install
 
 ## ⚙️ Configuration
 
-Specify the model you want to use by editing the following line in `index.js`:
+Specify the model you want to use by editing the following line in `price-scraper.js`:
 
 ```js
 const MODEL_NAME = 'your-model-name'; // e.g., 'llama3', 'gemma:2b', etc.
@@ -48,7 +48,7 @@ Ensure the model is pulled and available in your Ollama environment.
 ## ▶️ Running the Server
 
 ```bash
-node index.js
+node price-scraper.js
 ```
 
 The API will be available at:
