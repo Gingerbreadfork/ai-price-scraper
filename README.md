@@ -26,7 +26,7 @@ A lightweight Node.js API that extracts pricing, sale status, and availability f
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/price-extractor-api.git
+git clone https://github.com/Gingerbreadfork/ai-price-scraper.git
 cd price-extractor-api
 npm install
 ```
