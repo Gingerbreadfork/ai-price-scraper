@@ -86,6 +86,10 @@ Extracts product details from a given product page URL.
 }
 ```
 
+curl -X POST http://localhost:3000/get-price \
+  -H "Content-Type: application/json" \
+  -d '{"url": "https://example.com/product-page"}'
+
 ---
 
 ## 🧠 How It Works
@@ -102,13 +106,3 @@ Extracts product details from a given product page URL.
 * Ensure your selected model is available and can be started with `ollama run`.
 * If the response contains non-JSON data, the parser will automatically attempt to extract the JSON portion.
 * Some product pages may be poorly structured; test multiple URLs to evaluate performance.
-
----
-
-## 📄 License
-
-MIT © \[Your Name or GitHub Handle]
-
----
-
-Would you like a `curl` or Postman example in the usage section?
